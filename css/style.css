@@ -14,8 +14,19 @@ html{
 
 .logo-txt{
 	font-family: 'Futura-Bold', sans-serif;
-	font-size: 16px;
-	
+	font-size: 1.1rem;
+	float: left;
+	font-weight: 800;
+	margin-left: 5px;
+	margin-top: 11px;
+}
+
+.logo-txt span{
+	font-family: 'Futura-Normal', sans-serif;
+	font-size: 1.1rem;
+	font-weight: normal;
+	clear:both;
+
 }
 
 body{
