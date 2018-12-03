@@ -1,0 +1,35 @@
+@font-face{
+	font-family: "Futura-Bold";
+ 	src: url("../fonts/Futura-bold.ttf");
+}
+
+@font-face{
+	font-family: "Futura-Normal";
+ 	src: url("../fonts/Futura-normal.ttf");
+}
+
+html{
+	font-size: 14px;
+}
+
+.logo-txt{
+	font-family: 'Futura-Bold', sans-serif;
+	font-size: 16px;
+	
+}
+
+body{
+	margin:0;
+}
+
+.logo-pic{
+	float: left;
+}
+
+.block_1{
+	min-height: 762px;
+	background: url(../img/laboratory.png) no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+
