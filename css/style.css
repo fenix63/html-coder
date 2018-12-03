@@ -21,6 +21,35 @@ html{
 	margin-top: 11px;
 }
 
+.founder{
+	max-height: 410px;
+	background: url(../img/founder.png) no-repeat;
+	height: 410px;
+	position: relative;
+	bottom: 0px;
+}
+
+.content .cert{
+	font-family: 'Futura-Bold', sans-serif;
+	font-size: 3rem;
+	font-weight: 800;
+}
+
+.content .cert span{
+	font-family: 'Futura-normal', sans-serif;
+	font-size: 2.6rem;
+	clear:both;
+	display: block;
+	font-weight: 600;
+	
+}
+
+.custom-controls{
+	font-family: 'Futura-normal', sans-serif;
+	font-size: 1.5rem;
+	margin-top: 10px;
+}
+
 .logo-txt span{
 	font-family: 'Futura-Normal', sans-serif;
 	font-size: 1.1rem;
