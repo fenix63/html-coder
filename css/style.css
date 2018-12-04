@@ -44,6 +44,17 @@ html{
 	
 }
 
+.calc button{
+	font-family: 'Futura-normal', sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+	background: #ffcc33;
+	border: 0px;
+	padding: 10px 15px;
+	margin-top: 30px;
+	cursor:pointer;
+}
+
 .custom-controls{
 	font-family: 'Futura-normal', sans-serif;
 	font-size: 1.5rem;
@@ -67,9 +78,13 @@ body{
 }
 
 .block_1{
-	min-height: 762px;
+	min-height: 490px;
 	background: url(../img/laboratory.png) no-repeat;
 	-webkit-background-size: contain;
 	background-size: contain;
+}
+
+.block_2{
+	min-height: 400px;
 }
 
