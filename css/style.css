@@ -8,6 +8,13 @@
  	src: url("../fonts/Futura-normal.ttf");
 }
 
+@font-face{
+	font-family: "Futura-LightC";
+ 	src: url("../fonts/futuralightc.otf");
+}
+
+
+
 html{
 	font-size: 14px;
 }
@@ -24,9 +31,18 @@ html{
 .founder{
 	max-height: 410px;
 	background: url(../img/founder.png) no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
 	height: 410px;
 	position: relative;
 	bottom: 0px;
+}
+
+.founder .man-cart{
+	transform: scale(0.7);
+	position: absolute;
+	bottom:-87px;
+	left:-70px;
 }
 
 .content .cert{
@@ -44,9 +60,19 @@ html{
 	
 }
 
+.cert-center{
+	font-family: 'Futura-LightC', sans-serif;
+	font-size: 3.2rem;
+}
+
+.cert-center span{
+	font-weight: bold;
+	font-family: 'Futura-normal', sans-serif;
+}
+
 .calc button{
 	font-family: 'Futura-normal', sans-serif;
-	font-size: 20px;
+	font-size: 19px;
 	text-transform: uppercase;
 	background: #ffcc33;
 	border: 0px;
@@ -54,6 +80,45 @@ html{
 	margin-top: 30px;
 	cursor:pointer;
 }
+
+
+.cert-txt-block{
+	font-family: 'Futura-LightC', sans-serif;
+	font-size: 1.65rem;
+	line-height: 1.2;
+}
+
+.get-cert{
+	font-size: 3.2rem;
+	font-family: 'Futura-LightC', sans-serif;
+	line-height: 1.2;
+	margin-top: 100px;
+}
+
+.get-cert span{
+	display: block;
+	font-family: 'Futura-normal', sans-serif;
+}
+
+.cert-img img{
+	max-width: 100%;
+	margin-top: 70px;
+}
+
+.cert-txt-block span{
+	display: block;
+	font-family: 'Futura-normal', sans-serif;
+}
+
+.cert-txt-block.left:last-child, .cert-txt-block.right:last-child{
+	position: absolute;
+	bottom: 0;
+}
+
+.criteria{
+	margin-top: 20px;
+}
+
 
 .custom-controls{
 	font-family: 'Futura-normal', sans-serif;
@@ -80,11 +145,14 @@ body{
 .block_1{
 	min-height: 490px;
 	background: url(../img/laboratory.png) no-repeat;
-	-webkit-background-size: contain;
-	background-size: contain;
+	-webkit-background-size: cover;
+	background-size: cover;
 }
 
 .block_2{
 	min-height: 400px;
 }
 
+.block_2 .container{
+	margin-top: 150px;
+}
