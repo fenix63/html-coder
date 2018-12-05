@@ -35,7 +35,7 @@ html{
 	background-size: contain;
 	height: 410px;
 	position: relative;
-	bottom: 0px;
+	bottom: -45px;
 }
 
 .founder .man-cart{
@@ -45,10 +45,40 @@ html{
 	left:-70px;
 }
 
+.step-block{
+	font-family: 'Futura-Bold', sans-serif;
+	font-size: 1rem;
+}
+
+.step-block .txt{
+	font-size: 1.4rem;
+	line-height: 1.4;
+}
+
+.step-block .number{
+	font-family: 'Futura-Bold', sans-serif;
+	font-size: 2.4rem;
+}
+
+.contacts{
+	font-family: 'Futura-normal', sans-serif;
+	font-size: 1.1rem;
+}
+
+.contacts .phone{
+	font-family: 'Futura-Bold', sans-serif;
+	font-size: 2rem;
+}
+
 .content .cert{
 	font-family: 'Futura-Bold', sans-serif;
 	font-size: 3rem;
 	font-weight: 800;
+	margin-top: 110px;
+}
+
+.main{
+	margin-top: 50px;
 }
 
 .content .cert span{
@@ -61,11 +91,13 @@ html{
 }
 
 .cert-center{
+	line-height: 1.1;
 	font-family: 'Futura-LightC', sans-serif;
 	font-size: 3.2rem;
 }
 
 .cert-center span{
+
 	font-weight: bold;
 	font-family: 'Futura-normal', sans-serif;
 }
@@ -103,6 +135,10 @@ html{
 .cert-img img{
 	max-width: 100%;
 	margin-top: 70px;
+}
+
+.certificates{
+	margin-top: 50px;
 }
 
 .cert-txt-block span{
