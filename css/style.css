@@ -30,7 +30,7 @@ html{
 
 .founder{
 	max-height: 410px;
-	background: url(../img/founder.png) no-repeat;
+	/*background: url(../img/founder.png) no-repeat;*/
 	-webkit-background-size: contain;
 	background-size: contain;
 	height: 410px;
@@ -48,6 +48,11 @@ html{
 .step-block{
 	font-family: 'Futura-Bold', sans-serif;
 	font-size: 1rem;
+
+}
+
+.step-block:first-child{
+	margin-top: -40px;
 }
 
 .step-block .txt{
@@ -103,6 +108,7 @@ html{
 }
 
 .calc button{
+	border-radius: 8px;
 	font-family: 'Futura-normal', sans-serif;
 	font-size: 19px;
 	text-transform: uppercase;
@@ -174,21 +180,22 @@ body{
 	margin:0;
 }
 
+
+
 .logo-pic{
 	float: left;
 }
 
 .block_1{
-	min-height: 490px;
-	background: url(../img/laboratory.png) no-repeat;
-	-webkit-background-size: cover;
-	background-size: cover;
+	padding-top: 10px;
+	min-height: 860px;
+	background: url(../img/laboratory-5.png) no-repeat;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	
 }
 
 .block_2{
 	min-height: 400px;
 }
 
-.block_2 .container{
-	margin-top: 150px;
-}
